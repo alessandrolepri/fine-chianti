@@ -1,9 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 const ShowPage = () => {
   return (
-    <h2> ciao </h2>
+    <section className="section">
+      <div className="container">
+        <h1 className="title is-1">Tignanello</h1>
+      </div>
+    </section>
+
   )
 }
 

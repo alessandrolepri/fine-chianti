@@ -6,14 +6,14 @@ const Home = () => {
   return (
     <section className="section">
 
-      <div className="container">
+      <div className="container chianti">
+
         <h1 className="intro">Discover Top 10 Fine Wine from Tuscany </h1>
 
         <div className="wrapper">
           <Link to="/explore"><div className="bottomhome"><button> Explore </button></div>
           </Link>
         </div>
-
       </div>
     </section>
   )
