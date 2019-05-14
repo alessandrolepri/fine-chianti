@@ -1,12 +1,17 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
 
+import NavBar from './NavBar'
+
+
 const ShowPage = () => {
   return (
+    <div>
+    <NavBar />
     <section className="section">
       <div className="container red">
         <h1 className="title">Tignanello</h1>
-        <h2 className="subtitleis">Location: Florence, Italy</h2>
+        <h2 className="subtitleis">Location: Florence, Italy </h2>
         <h2 className="web"> <a href="https://www.antinori.it/it/"  target="_blank" rel="noreferrer noopener"> Visit Official Website</a></h2>
         <hr />
 
@@ -27,6 +32,9 @@ const ShowPage = () => {
 
       </div>
     </section>
+    </div>
+
+
   )
 }
 

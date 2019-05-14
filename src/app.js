@@ -11,12 +11,13 @@ import Home from './components/Home'
 import ShowPage from './components/ShowPage'
 
 
+
+
 class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
         <main>
-
           <Switch>
             <Route path="/explore" component={ShowPage} />
             <Route path="/" component={Home} />
