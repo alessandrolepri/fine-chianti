@@ -1,3 +1,43 @@
-h1 {
+body {
+  scroll-behavior: smooth;
+}
+
+.container {
+  background-image: url("http://pensacolafruitwinery.com/wp-content/uploads/2019/03/Beyond-the-Grape-in-Pensacola-wine-event-with-Benedetto-Benny-Baracchi-from-Cortona-Toscana.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.section {
+  // background-color: white;
+  height: 850px;
+}
+
+img {
+  background-position: center;
+  background-size: cover;
+  margin-left: 200px;
+}
+
+h1.intro {
+  text-align: center;
+  font-size: 90px;
   color: red;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.bottomhome button {
+  border-radius: 20px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
 }
