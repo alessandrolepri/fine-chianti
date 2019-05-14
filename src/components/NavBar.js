@@ -8,10 +8,11 @@ const NavBar = () => {
         <a href="/"> HOME </a>
       </div>
       <ul id="menu">
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="/ornellaia">Ornellaia</a></li>
+        <li><a href="/sassicaia">Sassicaia</a></li>
+        <li><a href="/biondisanti">Biondi Santi</a></li>
+        <li><a href="/fattoriadelcerro">Fattoria del Cerro</a></li>
+        <li><a href="/explore">Tignanello</a></li>
       </ul>
     </nav>
   )

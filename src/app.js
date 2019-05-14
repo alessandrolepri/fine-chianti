@@ -9,6 +9,10 @@ import './style.scss'
 
 import Home from './components/Home'
 import ShowPage from './components/ShowPage'
+import Sassicaia from './components/Sassicaia'
+import Ornellaia from './components/Ornellaia'
+import FattoriaDelCerro from './components/FattoriaDelCerro'
+import BiondiSanti from './components/BiondiSanti'
 
 
 
@@ -20,6 +24,10 @@ class App extends React.Component {
         <main>
           <Switch>
             <Route path="/explore" component={ShowPage} />
+            <Route path="/biondisanti" component={BiondiSanti} />
+            <Route path="/fattoriadelcerro" component={FattoriaDelCerro} />
+            <Route path="/sassicaia" component={Sassicaia} />
+            <Route path="/ornellaia" component={Ornellaia} />
             <Route path="/" component={Home} />
           </Switch>
 

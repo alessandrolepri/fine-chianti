@@ -8,7 +8,7 @@ const Home = () => {
 
       <div className="container chianti">
 
-        <h1 className="intro">Discover Top 10 Fine Wine from Tuscany </h1>
+        <h1 className="intro">Discover Top 5 Red Fine Wine from Tuscany </h1>
 
         <div className="wrapper">
           <Link to="/explore"><div className="bottomhome"><button> Explore </button></div>
